@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage
-from langchain.agents.agent import AgentExecutor
-from langchain.agents.tool_calling_agent import create_tool_calling_agent
+from langchain.agents import AgentExecutor
+from langchain.agents import create_tool_calling_agent
 from tools import tools
 from datetime import datetime
 
